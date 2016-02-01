@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<config>
+	<taskdispatch>
+		<default>
+			<remote_agents>
+				<webinterf_server	type="rawtcp_server" addr="192.168.203.21:19995" rawmsg_type="20001"/>
+				<taskdispatch	type="tcp_server" addr="127.0.0.1:9001" />
+			</remote_agents>
+			<mysql>		
+				<mysql_ip_addr>192.168.203.205</mysql_ip_addr>
+				<local0_or_remote1_db>1</local0_or_remote1_db>
+				<mysql_username>root</mysql_username>
+				<mysql_passwd>root</mysql_passwd>
+				<mysql_db_name>oidd2</mysql_db_name>
+				<mysql_port>3306</mysql_port>
+			</mysql>
+		</default>
+	</taskdispatch>
+</config>
